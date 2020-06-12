@@ -42,7 +42,7 @@ suite =
                     Expect.equal (Just note) (Noteboard.get note.id noteboard)
             , test "has same size" <|
                 \_ ->
-                    Expect.equal 0 (Noteboard.toList noteboard |> List.length)
+                    Expect.equal 1 (Noteboard.toList noteboard |> List.length)
             ]
         , describe "update"
             [ test "does nothing for NothingToSeeHere" <|
