@@ -200,7 +200,7 @@ a list of branches, select `add-deploy-manifests`. Create the pull-request, revi
 
 ## Step 4: Add deployment to cluster
 We're getting closer to a complete CI/CD setup. What remains is to tell the Kubernetes cluster we want to deploy to about our
-deployment manifests. In the cluster there is an operator that continuously checks for the `cx-devops-101/k8s-infra` cluster for
+deployment manifests. In our cluster there is an operator that continuously checks the `cx-devops-101/k8s-infra` repository for
 changes, so our goal at this point is to add a pull-request to that repository where we tell the operator about our application.
 
 Go to [cx-devops-101/k8s-infra](https://github.com/cx-devops-101/k8s-infra), fork it and continue with the instructions you find
