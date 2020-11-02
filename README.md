@@ -114,9 +114,9 @@ executed for pull-requests.
 
 ![](images/build-failed.png)
 
-What happened? The job failed right? The reason? Well, we broke a unit test with our change and we might also have broken other
-the expecation other applications has about the API. The API specification in our case states that valid answers for that endpoint
-is `Ok` or `Healthy`. We still want to make a change so that we will trigger a build so, let's change it to `Ok` instead.
+What happened? The job failed right? The reason? Well, we broke a unit test with our change and we might also have broken
+expecations that other applications has about the API. The API specification in our case states that valid answers for that endpoint
+is `Ok` or `Healthy`. We still want to make a change that will trigger a build so, let's change it to `Ok` instead.
 
 1. Navigate to the `Code` tab.
 1. Switch to the branch you created for the pull-request, e.g. `<username>-patch-1`
