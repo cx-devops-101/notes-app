@@ -18,7 +18,7 @@ locally and pushing them to GitHub.
 
 ## Step 2: Setup CI
 As with most DevOps oriented projects, we need some CI workflows/pipelines/jobs. Writing such pipelines
-for a CI framework you haven't used before is always a big hassle, so don't worry - we've got you covered.
+for a CI framework you haven't used before is always a big hassle, but don't worry - we've got you covered.
 In your forked repository you'll find a branch named `add-ci-workflows` where we've prepared the GitHub
 Actions workflows for you. You only need to do some small modifications.
 
@@ -46,9 +46,8 @@ your repository and switch to the `add-ci-workflows` branch.
 
 ![](images/add-ci-workflow-branch.png)
 
-You should now see a directory in the
-`.github/workflows` directory, so navigate to it. We need to edit both `notat-api-ci.yaml` and
-`notat-web-ci.yaml`, so do the following for both files.
+You should now see the directory `.github/workflows` directory, so navigate to it. We need to edit both 
+`notat-api-ci.yaml` and `notat-web-ci.yaml`, so do the following for both files.
 
 1. Navigate to the file, i.e click on it.
 1. Click on edit (the pencil in the top-right corner of the file view).
